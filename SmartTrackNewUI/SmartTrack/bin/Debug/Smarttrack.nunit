@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="test1" />
+  <Config name="Default" binpathtype="Auto">
+    <assembly path="Smarttrack.dll" />
+  </Config>
+  <Config name="test1" binpathtype="Auto">
+    <assembly path="Smarttrack.dll" />
+  </Config>
+</NUnitProject>

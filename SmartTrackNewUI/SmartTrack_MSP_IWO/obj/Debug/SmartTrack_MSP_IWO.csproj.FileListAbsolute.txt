@@ -1,0 +1,17 @@
+C:\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.dll.config
+C:\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.dll
+C:\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.pdb
+C:\SmartTrackNewUI\SmartTrack_MSP_IWO\obj\Debug\SmartTrack_MSP_IWO.dll
+C:\SmartTrackNewUI\SmartTrack_MSP_IWO\obj\Debug\SmartTrack_MSP_IWO.pdb
+C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.dll.config
+C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.dll
+C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.pdb
+C:\working\SmartTrackNewUI\SmartTrack_MSP_IWO\obj\Debug\SmartTrack_MSP_IWO.csprojResolveAssemblyReference.cache
+C:\working\SmartTrackNewUI\SmartTrack_MSP_IWO\obj\Debug\SmartTrack_MSP_IWO.dll
+C:\working\SmartTrackNewUI\SmartTrack_MSP_IWO\obj\Debug\SmartTrack_MSP_IWO.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.dll.config
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_MSP_IWO.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack_MSP_IWO\obj\Debug\SmartTrack_MSP_IWO.csprojResolveAssemblyReference.cache
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack_MSP_IWO\obj\Debug\SmartTrack_MSP_IWO.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack_MSP_IWO\obj\Debug\SmartTrack_MSP_IWO.pdb

@@ -1,0 +1,39 @@
+Start Log File: Thursday, October 4, 2018 5:16:36 AM
+Start Test Case: 002 : [Thursday, October 4, 2018 5:16:54 AM]
+INFO: Cannot locate element with text: Billable service(non-pv)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-labelledby='ui-dialog-title-dialog']//button[@class='btn btn-sm btn-primary']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-labelledby='ui-dialog-title-dialog']//button[@class='btn btn-sm btn-primary']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"btnJobSaveAndContinue"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+Start Test Case: 002 : [Thursday, October 4, 2018 5:19:47 AM]
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"DefaultContent_divErrorReports"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"DefaultContent_divErrorReports"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"DefaultContent_divErrorReports"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='totalcontent']//li[@wtitle='Distribution List']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Timed out after 60 seconds
+Start Test Case: 002 : [Thursday, October 4, 2018 5:26:43 AM]
+ERROR: You are not authorized to login to Smart Track. Kindly click here for logging into Supplier Portal as a Supplier User , C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\ScreenShot\04102018_5\TestCase_002_04-10-2018_05_26_59.png
+End Test Case: 002 : [Thursday, October 4, 2018 5:27:00 AM]
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='gn-opener gn-icon gn-icon-menu'][@data-toggle='popover']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='gn-opener gn-icon gn-icon-menu'][@data-toggle='popover']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+End Log File: Thursday, October 4, 2018 5:27:15 AM

@@ -1,0 +1,9 @@
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\CustomListeners\bin\Debug\CustomListeners.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\CustomListeners\bin\Debug\CustomListeners.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\CustomListeners\bin\Debug\nunit.core.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\CustomListeners\bin\Debug\nunit.core.interfaces.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\CustomListeners.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\CustomListeners.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\CustomListeners\obj\Debug\CustomListeners.csprojResolveAssemblyReference.cache
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\CustomListeners\obj\Debug\CustomListeners.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\CustomListeners\obj\Debug\CustomListeners.pdb

@@ -1,0 +1,100 @@
+﻿<!-- Rule set for identifying label matrix-->
+<!--for popups add PopupName<space>element's class name-->
+
+<Client id="Arizona Public Service">
+  <login>
+    <add key="DefaultContent_TxtEmailAddress" value="USERNAME"/>
+    <add key="DefaultContent_TxtPassword" value="Password"/>
+    <add key="DefaultContent_btnLog" value="Login"/>
+  </login>
+  
+  <CreateRequriement>
+    <Outline>
+      <add key="organizationID" value="Organization Name *" name="" type=""></add>
+      <add key="serviceMethodID" value="Engagement Type *"/>
+      <add key="ProjectId" value="Business Unit (Corporate Only) *"/>
+      <add key="noofresources" value="Number of Resources *"/>
+      <add key="hiringManager" value="Leader *"/>      
+      <add key="deptNumber" value="Unit Number *"/>
+      <add key="CreatedUserID" value="Requestor *"/>
+      <add key="poNumber" value="PO Number"/>
+      <add key="neededStartDate" value="Start Date *"/>
+      <add key="enddate" value="End Date *"/>
+      <add key="altHiringManager" value="FFD Supervisor (PV Only) *"/>
+      <add key="CostCenterId" value="Contractor Cost *"/>
+      <add key="workLocationID" value="Work Location *"/>
+      <add key="GLId" value="Contractor Category *"/>
+      <add key="workLocationAddress" value="Work Location Address *"/>
+      <add key="directIndirectFalse" value="ACAD (PV Only) *"/>
+      <add key="directIndirectTrue" value="ACAD (PV Only) *"/>
+      <add key="programId" value="ACAD Level (PV Only) *"/>
+      <add key="laborClassCode61" value="Badge Access (Non PV) *"/>
+      <add key="laborClassCode62" value="Badge Access (Non PV) *"/>
+      <add key="computerAccessTrue" value="Computer Access *"/>
+      <add key="computerAccessFalse" value="Computer Access *"/>
+      <add key="reasonToHireID" value="Reason to Engage *"/>      
+      <add key="ciplocation" value="CIP Access *"/>
+      <add key="JustificationtoHire" value="Request Justification *"/>
+      <add key="btnSaveCont" value=" SAVE &amp; CONTINUE"/>
+      
+    </Outline>
+    <ScopeOfWork>
+      <add key="typeofServiceID" value="Position Type *"/>
+      <add key="txtJobTitle" value="Job Title *"/>
+      <add key="jobDescription" value="Job Description *"/>
+      <add key="btnjobdocupload" value="Upload Assignment Detail"/>
+      <add key="audiofilename" value="Enter file name to save the recording"/>
+      <add key="startRecord" value="Record"/>
+      <add key="skillDescMandatory" value="Required"/>
+      <add key="skillDescDesired" value="Desired"/>
+      <add key="skillName" value="Skill Name"/>
+      <add key="skillDescription" value="Description"/>
+      <add key="skillLevelID1" value="Level (1-5, 5 being the highest) 1 2 3 4 5 -  skillLevelID1"/>
+      <add key="skillLevelID2" value="Level (1-5, 5 being the highest) 1 2 3 4 5 -  skillLevelID2"/>
+      <add key="skillLevelID3" value="Level (1-5, 5 being the highest) 1 2 3 4 5 -  skillLevelID3"/>
+      <add key="skillLevelID4" value="Level (1-5, 5 being the highest) 1 2 3 4 5 -  skillLevelID4"/>
+      <add key="skillLevelID5" value="Level (1-5, 5 being the highest) 1 2 3 4 5"/>
+      <add key="skillYearsExpID" value="Years"/>
+      <add key="skillRequiredTrue" value="Mandatory (Yes/No)Yes"/>
+      <add key="skillRequiredFalse" value="Mandatory (Yes/No)No"/>
+      <add key="specialNeedCategoryID" value="Category "/>
+      <add key="specialNeedDescription" value="Description"/>
+      <add key="mandatoryPrestartTrue" value="Mandatory  PreStartYes"/>
+      <add key="mandatoryPrestartFalse" value="Mandatory  PreStartNo"/>
+      <add key="recurringScheduleTrue" value="Recurring"/>
+      <add key="recurringScheduleFalse" value="RecurringNo"/>
+      <add key="ddlFrequency" value="Recurring Frequency"/>
+      <add key="RecurringFrequency_Submit" value="SUBMIT"/>
+      <add key="RecurringFrequency_Close" value="CLOSE"/>
+     
+      <add key="rdtypeoption1" value="Contract Value Calculation: *- Use Start &amp; End Date, assuming 40 hours per week"/>
+      <add key="rdtypeoption2" value="Contract Value Calculation: *- Use Start &amp; End Date, assuming a different estimated hours per week"/>
+      <add key="rdtypeoption3" value="Contract Value Calculation: *- Use total estimated hours for the entire contract"/>
+      <add key="rdtypeoption4" value="Contract Value Calculation: *- No calculation needed"/>
+      <add key="EstWeeklyHours" value="Estimated # of Hours/Week:"/>
+      <add key="approvedTotalHours" value="Approved Total # of Hours"/>
+      <add key="currencyID" value="Currency"/>
+      <add key="rateTypeID" value="Rate Type"/>
+      <add key="payRateLow" value="Pay Rate *"/>
+      <add key="payRateHigh" value="Pay Rate *"/>
+      <add key="billRateLow" value="Pay Rate *"/>
+      <add key="billRateHigh" value="Pay Rate *"/>
+      
+      
+      <add key="estContractValue" value="Estimated Contract Value"/>
+      <add key="btnJobSaveAndContinue" value=" SAVE &amp; CONTINUE"/>
+    </ScopeOfWork>
+    <ROE_Workflow>
+      <add key="guidelineAccepted" value=" * I have read and understood the guidelines."/>
+      <add key="btnGuidelineSaveAndContinue" value=" SAVE &amp; CONTINUE"/>
+    </ROE_Workflow>
+    <CandidateQuestions>
+      <add key="btnQuestionsSaveAndContinue" value=" SAVE &amp; CONTINUE"/>
+    </CandidateQuestions>
+    <Review_Submit>
+      <add key="btnSubmit" value=" SUBMIT"/>
+    </Review_Submit>
+    
+  </CreateRequriement>
+  
+</Client>

@@ -1,0 +1,15 @@
+Start Log File: Thursday, October 4, 2018 6:34:43 AM
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+Start Test Case: 001 : [Thursday, October 4, 2018 6:35:08 AM]

@@ -1,0 +1,12 @@
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\Test.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\Test.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\nunit.core.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\nunit.core.interfaces.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\nunit.framework.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\WebDriver.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\WebDriver.Support.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\WebDriver.xml
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\bin\Debug\WebDriver.Support.xml
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\obj\Debug\Test.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\Test\obj\Debug\Test.pdb

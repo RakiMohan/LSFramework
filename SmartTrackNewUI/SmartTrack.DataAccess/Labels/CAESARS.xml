@@ -1,0 +1,44 @@
+﻿<Client>
+  <CreateRequirement>
+    <ConditionalRuns>
+      <Run>
+        <add key="organizationID" name="Organization Name *" value="Billable Services (Non-PV)"/>
+      </Run>
+      <Run>
+        <add key="organizationID" name="Organization Name *" value="Call Center"/>
+      </Run>
+      <Run>
+        <add key="organizationID" name="Organization Name *" value="Corporate"/>
+      </Run>
+      <Run>
+        <add key="organizationID" name="Organization Name *" value="Fossil"/>
+      </Run>
+      <Run>
+        <add key="organizationID" name="Organization Name *" value="Palo Verde"/>
+      </Run>
+      <Run>
+        <add key="organizationID" name="Organization Name *" value="TD&amp;C"/>
+      </Run>
+    </ConditionalRuns>
+    <Common>
+      <Outline>
+        <add key="deptNumber" name="Department *"/>
+        <add key="deptName" name="Department Name *"/>
+        <add key="hiringManager" name="Engaging Manager *"/>
+        <add key="altHiringManager" name="Alternate Engaging Manager *"/>
+        <add key="laborClassCode" name="Union Position"/>
+        <add key="priority" name="Priority *"/>
+        <add key="workScheduleID" name="Work Week *"/>
+        <add key="noofresources" name="Number of Resources *"/>
+        <add key="programId" name="Gaming Process *"/>
+        <add key="reasonToHireID" name="Reason for this Request"/>
+        <add key="neededStartDate" name="Needed Date *"/>
+        <add key="enddate" name="End Date *"/>
+        <add key="workLocationID" name="Work Location *"/>
+        <add key="JustificationtoHire" name="Justification *"/>
+        <add key="workLocationAddress" name="Work Location Address *"/>
+      </Outline>
+      <JobDetails>JobDetails</JobDetails>
+    </Common>
+  </CreateRequirement>
+</Client>

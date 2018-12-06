@@ -1,0 +1,23 @@
+Start Log File: Thursday, October 4, 2018 6:24:20 AM
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+Start Test Case: 004 : [Thursday, October 4, 2018 6:24:43 AM]
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"loading-message"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Login Time 0
+INFO: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Input string was not in a correct format.
+INFO:  value is not matched: 
+INFO: Login Time 0
+Start Test Case: 004 : [Thursday, October 4, 2018 6:27:19 AM]
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Timed out after 10 seconds
+INFO: Timed out after 10 seconds
+End Log File: Thursday, October 4, 2018 6:33:03 AM

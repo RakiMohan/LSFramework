@@ -1,0 +1,127 @@
+﻿<!-- Rule set for identifying label matrix-->
+<!--for popups add PopupName<space>element's class name-->
+
+<Client id="CAESARS">
+  <login>
+    <add key="DefaultContent_TxtEmailAddress" value="USERNAME"/>
+    <add key="DefaultContent_TxtPassword" value="Password"/>
+    <add key="DefaultContent_btnLog" value="Login"/>
+  </login>
+  
+  <CreateRequriement>
+    <Outline>
+      <add key="organizationID" value="Organization Name *"></add>
+      <add key="deptNumber" value="Department *"/>
+      <add key="deptName" value="Department Name *"/>
+      <add key="hiringManager" value="Engaging Manager *"/>
+      <add key="altHiringManager" value="Alternate Engaging Manager *"/>
+      <add key="laborClassCode" value="Union Position"/>
+      <add key="priority" value="Priority *"/>
+      <add key="workScheduleID" value="Work Week *"/>
+      <add key="noofresources" value="Number of Resources *"/>
+      <add key="programId" value="Gaming Process *"/>
+      <add key="reasonToHireID" value="Reason for this Request"/>
+      <add key="neededStartDate" value="Needed Date *"/>
+      <add key="enddate" value="End Date *"/>
+      <add key="workLocationID" value="Work Location *"/>
+      <add key="JustificationtoHire" value="Justification *"/>
+      <add key="workLocationAddress" value="Work Location Address *"/> 
+      
+           
+     
+      <add key="Network Access Neededno" value="Network Access Needed *"/>
+      <add key="Network Access Neededyes" value="Network Access Needed *"/>
+      <add key="singleLine7" value="Network Access Role *"/>
+      
+      <add key="Caesars Email Neededyes" value="Caesars Email Needed *"/>      
+      <add key="Caesars Email Neededno" value="Caesars Email Needed *"/>
+      
+      
+      
+      <add key="btnSaveCont" value=" SAVE &amp; CONTINUE"/>
+    </Outline>
+    <ScopeOfWork>
+      <add key="typeofServiceID" value="Type of Service *"/>
+      <add key="txtJobTitle" value="Job Title *"/>
+      <add key="jobDescription" value="Job Description"/>
+      <add key="btnjobdocupload" value="Upload Assignment Detail"/>
+      <add key="audiofilename" value="Enter file name to save the recording"/>
+      <add key="startRecord" value="Record"/>
+      <add key="skillDescMandatory" value="Mandatory"/>
+      <add key="skillDescDesired" value="Desired"/>
+      <add key="skillName" value="Skill Name"/>
+      <add key="skillDescription" value="Description"/>
+      <add key="skillLevelID1" value="Level (1-5, 5 being the highest) 1 2 3 4 5"/>
+      <add key="skillLevelID2" value="Level (1-5, 5 being the highest) 1 2 3 4 5"/>
+      <add key="skillLevelID3" value="Level (1-5, 5 being the highest) 1 2 3 4 5"/>
+      <add key="skillLevelID4" value="Level (1-5, 5 being the highest) 1 2 3 4 5"/>
+      <add key="skillLevelID5" value="Level (1-5, 5 being the highest) 1 2 3 4 5"/>
+      <add key="skillYearsExpID" value="Years"/>
+     
+      <add key="specialNeedCategoryID" value="Category "/>
+      <add key="specialNeedDescription" value="Description"/>
+      <add key="mandatoryPrestartTrue" value="Mandatory  PreStartYes"/>
+      <add key="mandatoryPrestartFalse" value="Mandatory  PreStartNo"/>
+      <add key="recurringScheduleTrue" value="RecurringYes"/>
+      <add key="recurringScheduleFalse" value="RecurringNo"/>
+      <add key="ddlFrequency" value="Recurring Frequency"/>
+      <add key="RecurringFrequency_Submit" value="SUBMIT"/>
+      <add key="RecurringFrequency_Close" value="CLOSE"/>
+      <add key="interTrue" value="Interview Required Yes"/>
+      <add key="interFalse" value="Interview Required No"/>
+
+      
+      <add key="travelTrue" value="Travel Required * Yes"/>
+      <add key="travelFalse" value="Travel Required * No"/>
+      <add key="travelLocation" value="Travel Location: *"/>
+      <add key="travelDescription" value="Travel Description *"/>
+      <add key="otTrue" value="OT Allowed * Yes "/>
+      <add key="otFalse" value="OT Allowed * No "/>
+      <add key="otLimitTrue" value="OT Limitation:"/>
+      <add key="otLimitFalse" value="OT Limitation:"/>
+      <add key="otHoursLimit" value="Maximum Overtime Hours Approved per week: *"/>
+      <add key="otPreTrue" value="Is Pre-Approval Required when OT Hours exceeds the Number of OT Hours Allowed?"/>
+      <add key="otPreFalse" value="Is Pre-Approval Required when OT Hours exceeds the Number of OT Hours Allowed?"/>
+      <add key="exemptTrue" value="Exempt/Non-Exempt * Exempt"/>
+      <add key="exemptFalse" value="Exempt/Non-Exempt * Non-Exempt"/>
+     
+      <add key="shiftID" value="Shift"/>
+      <add key="shiftDiffPercent" value="% Amount:"/>
+     
+      <add key="rdtypeoption1" value="Contract Value Calculation: *- Use Start &amp; End Date, assuming 40 hours per week"/>
+      <add key="rdtypeoption2" value="Contract Value Calculation: *- Use Start &amp; End Date, assuming a different estimated hours per week"/>
+      <add key="rdtypeoption3" value="Contract Value Calculation: *- Use total estimated hours for the entire contract"/>
+      <add key="rdtypeoption4" value="Contract Value Calculation: *- No calculation needed"/>
+      <add key="EstWeeklyHours" value="Estimated # of Hours/Week:"/>
+      <add key="approvedTotalHours" value="Approved Total # of Hours"/>
+      <add key="currencyID" value="Currency"/>
+      <add key="rateTypeID" value="Rate Type"/>
+      <add key="payRateLow" value="Pay Rate *"/>
+      <add key="payRateHigh" value="Pay Rate *"/>
+      <add key="billRateLow" value="Bill Rate"/>
+      <add key="billRateHigh" value="Bill Rate"/>     
+      
+      <add key="estContractValue" value="Estimated Contract Value"/>
+
+      <add key="rateNegoTrue" value=" Rate Negotiable Yes"/>
+      <add key="rateNegoFalse" value="Rate Negotiable No"/>
+      <add key="rateConTrue" value="Submit resumes with higher rates? Yes"/>
+      <add key="rateConFalse" value="Submit resumes with higher rates? No"/>
+
+
+      <add key="btnJobSaveAndContinue" value=" SAVE &amp; CONTINUE"/>
+    </ScopeOfWork>
+    <ROE_Workflow>
+      <add key="guidelineAccepted" value=" * I have read and understood the guidelines."/>
+      <add key="btnGuidelineSaveAndContinue" value=" SAVE &amp; CONTINUE"/>
+    </ROE_Workflow>
+    <CandidateQuestions>
+      <add key="btnQuestionsSaveAndContinue" value=" SAVE &amp; CONTINUE"/>
+    </CandidateQuestions>
+    <Review_Submit>
+      <add key="btnSubmit" value=" SUBMIT"/>
+    </Review_Submit>
+    
+  </CreateRequriement>
+  
+</Client>

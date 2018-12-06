@@ -1,0 +1,109 @@
+﻿<!-- Rule set for identifying label matrix-->
+<!--for popups add PopupName<space>element's class name-->
+
+<Client id="YP">
+  <login>
+    <add key="DefaultContent_TxtEmailAddress" value="USERNAME"/>
+    <add key="DefaultContent_TxtPassword" value="Password"/>
+    <add key="DefaultContent_btnLog" value="Login"/>
+  </login>
+  
+  <CreateRequriement>
+    <Outline>
+      <add key="organizationID" value="Organization Name *"></add>
+      <add key="serviceMethodID" value="Service Method"/>
+      <add key="deptNumber" value="RC Code *"/>
+      <add key="deptName" value="RC Description *"/>
+      <add key="hiringManager" value="Requestor *"/>
+      <add key="altHiringManager" value="Alternate Requestor *"/>
+      <add key="programId" value="Account Code *"/>
+      <add key="JustificationtoHire" value="Justification to Hire"/>
+      <add key="workScheduleID" value="Work Week *"/>
+      <add key="noofresources" value="Number of Resources *"/>
+      <add key="neededStartDate" value="Needed Date *"/>
+      <add key="enddate" value="End Date *"/>
+      <add key="workLocationID" value="Work Location *"/>
+      <add key="siteLocationID" value="YP Company *"/>
+      <add key="workLocationAddress" value="Work Location Address *"/>
+      <add key="reasonToHireID" value="Reason to Hire"/>
+      <add key="btnSaveCont" value=" Save &amp; Continue"/>
+    </Outline>
+    <ScopeOfWork>
+      <add key="typeofServiceID" value="Type of Service *"/>
+      <add key="txtJobTitle" value="Title *"/>
+      <add key="jobDescription" value="Assignment Detail"/>
+      <add key="btnjobdocupload" value="Upload Assignment Detail"/>
+      <add key="audiofilename" value="Enter file name to save the recording"/>
+      <add key="startRecord" value="Record"/>
+      <add key="skillDescMandatory" value="Mandatory *"/>
+      <add key="skillDescDesired" value="Desired"/>
+      <add key="skillName" value="Skill Name *"/>
+      <add key="skillDescription" value="Description"/>
+      <add key="skillLevelID1" value="Level (1-5, 5 being the highest)*
+1	2	3	4	5
+"/>
+      <add key="skillLevelID2" value="Level (1-5, 5 being the highest)*
+1	2	3	4	5
+"/>
+      <add key="skillLevelID3" value="Level (1-5, 5 being the highest)*
+1	2	3	4	5
+"/>
+      <add key="skillLevelID4" value="Level (1-5, 5 being the highest)*
+1	2	3	4	5
+"/>
+      <add key="skillLevelID5" value="Level (1-5, 5 being the highest)*
+1	2	3	4	5
+"/>
+      <add key="skillYearsExpID" value="Years *"/>
+      <add key="skillRequiredTrue" value="Mandatory (Yes/No)- Yes"/>
+      <add key="skillRequiredFalse" value="Mandatory (Yes/No)- No"/>
+      <add key="specialNeedCategoryID" value="Category *"/>
+      <add key="specialNeedDescription" value="Description"/>
+      <add key="mandatoryPrestartTrue" value="Mandatory 
+  PreStart"/>
+      <add key="mandatoryPrestartFalse" value="Mandatory 
+  PreStart"/>
+      <add key="recurringScheduleTrue" value="Recurring"/>
+      <add key="recurringScheduleFalse" value="Recurring"/>
+      <add key="ddlFrequency" value="Recurring Frequency"/>
+      <add key="RecurringFrequency_Submit" value="SUBMIT"/>
+      <add key="RecurringFrequency_Close" value="CLOSE"/>
+      <add key="travelTrue" value="Travel Required"/>
+      <add key="travelFalse" value="Travel Required"/>
+      <add key="travelLocation" value="Travel Location: *"/>
+      <add key="travelDescription" value="Travel Description *"/>
+      <add key="otTrue" value="OT Allowed"/>
+      <add key="otFalse" value="OT Allowed"/>
+      <add key="otLimitTrue" value="OT Limitation:"/>
+      <add key="otLimitFalse" value="OT Limitation:"/>
+      <add key="otHoursLimit" value="Maximum Overtime Hours Approved per week: *"/>
+      <add key="otPreTrue" value="Is Pre-Approval Required when OT Hours exceeds the Number of OT Hours Allowed?"/>
+      <add key="otPreFalse" value="Is Pre-Approval Required when OT Hours exceeds the Number of OT Hours Allowed?"/>
+      <add key="shiftID" value="Shift"/>
+      <add key="shiftDiffPercent" value="% Amount:"/>
+      <add key="rdtypeoption1" value="Contract Value Calculation: *- Use Start &amp; End Date, assuming 40 hours per week"/>
+      <add key="rdtypeoption2" value="Contract Value Calculation: *- Use Start &amp; End Date, assuming a different estimated hours per week"/>
+      <add key="rdtypeoption3" value="Contract Value Calculation: *- Use total estimated hours for the entire contract"/>
+      <add key="rdtypeoption4" value="Contract Value Calculation: *- No calculation needed"/>
+      <add key="EstWeeklyHours" value="Estimated # of Hours/Week:"/>
+      <add key="approvedTotalHours" value="Approved Total # of Hours"/>
+      <add key="currencyID" value="Currency"/>
+      <add key="rateTypeID" value="Rate Type"/>
+      <add key="payRateLow" value="Pay Rate *"/>
+      <add key="payRateHigh" value="Pay Rate *"/>
+      <add key="btnJobSaveAndContinue" value=" Save &amp; Continue"/>
+    </ScopeOfWork>
+    <ROE_Workflow>
+      <add key="guidelineAccepted" value=" * I have read and understood the guidelines."/>
+      <add key="btnGuidelineSaveAndContinue" value=" Save &amp; Continue"/>
+    </ROE_Workflow>
+    <CandidateQuestions>
+      <add key="btnQuestionsSaveAndContinue" value=" Save &amp; Continue"/>
+    </CandidateQuestions>
+    <Review_Submit>
+      <add key="btnSubmit" value=" Submit"/>
+    </Review_Submit>
+    
+  </CreateRequriement>
+  
+</Client>

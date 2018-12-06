@@ -1,0 +1,50 @@
+Error:compatibility-tests.dll:RequiredAddinAttribute is not available in NUnit 3, which no longer supports Addins. After conversion, you can create custom attributes or engine extensions instead.
+Error:NUnit.Tests.IncompatibleSetUpFixture.OneTimeSetUpMethod:SetUpAttribute is no longer allowed in a SetUpFixture in NUnit 3. Use OneTimeSetUpAttribute.
+Error:NUnit.Tests.IncompatibleSetUpFixture.OneTimeTearDownMethod:TearDownAttribute is no longer allowed in a SetUpFixture in NUnit 3. Use OneTimeTearDownAttribute.
+Error:NUnit.Tests.CompatibilityTests.FixtureSetUp:TestFixtureSetUpAttribute is not supported in NUnit 3. Use OneTimeSetUpAttribute.
+Error:NUnit.Tests.CompatibilityTests.FixtureTearDown:TestFixtureTearDownAttribute is not supported in NUnit 3. Use OneTimeTearDownAttribute.
+Error:NUnit.Tests.CompatibilityTests.ExpectedExceptionTest:ExpectedExceptionAttribute is not supported in NUnit 3. Use Assert.Throws or Throws.InstanceOf.
+Error:NUnit.Tests.CompatibilityTests.TestRequiringSTA:RequiresSTAAttribute is not supported in NUnit 3. Use ApartmentAttribute.
+Error:NUnit.Tests.CompatibilityTests.TestRequiringMTA:RequiresMTAAttribute is not supported in NUnit 3. Use ApartmentAttribute.
+Error:NUnit.Tests.CompatibilityTests.IgnoredTestCaseWithoutReason:TestCaseAttribute Ignore property changes from bool to string in NUnit 3. Fix after conversion.
+Error:NUnit.Tests.CompatibilityTests.TestCaseWithResult:TestCaseAttribute no longer supports Result property in NUnit 3. Use ExpectedResult.
+Error:NUnit.Tests.CompatibilityTests.ExpectedExceptionTestCase:TestCaseAttribute does not support ExpectedException in NUnit 3. Use Assert.Throws or Throws.InstanceOf.
+Error:NUnit.Tests.CompatibilityTests.InstanceField:TestCaseSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests.InstanceProperty:TestCaseSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests.InstanceMethod:TestCaseSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests+SeparateClass.InstanceField:TestCaseSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests+SeparateClass.InstanceProperty:TestCaseSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests+SeparateClass.InstanceMethod:TestCaseSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests.InstanceField:ValueSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests.InstanceProperty:ValueSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests.InstanceMethod:ValueSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests+SeparateClass.InstanceField:ValueSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests+SeparateClass.InstanceProperty:ValueSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests+SeparateClass.InstanceMethod:ValueSourceAttribute must reference a static member.
+Error:NUnit.Tests.CompatibilityTests.IgnoredTestWithoutReason:IgnoreAttribute must have a reason specified in NUnit 3.
+Warning:NUnit.Tests.CompatibilityTests.AnotherTestRequiringSTA:System.STAThreadAttribute has no effect in NUnit 3. Use ApartmentAttribute.
+Warning:NUnit.Tests.CompatibilityTests.AnotherTestRequiringMTA:System.MTAThreadAttribute has no effect in NUnit 3. Use ApartmentAttribute.
+Error:NUnit.Tests.CompatibilityTests.NestedFixture:TestFixtureAttribute Ignore property changes from bool to string in NUnit 3. Fix after conversion.
+Error:NUnit.Tests.ClassContainingSuite.MySuite:SuiteAttribute is not supported in NUnit 3. You should restructure your tests to eliminate legacy Suites.
+Error:NUnit.Tests.AssertionHelperDerivedClass.DATA:TestCaseSourceAttribute must reference a static member.
+Error:NUnit.Tests.SomeAddin:NUnitAddinAttribute is not available in NUnit 3, which no longer supports Addins. After conversion, you can create custom attributes or engine extensions instead.
+Error:NUnit.Tests.CompatibilityTests+NestedFixture:TestFixtureAttribute Ignore property changes from bool to string in NUnit 3. Fix after conversion.
+Error:NUnit.Tests.CompatibilityTests.ExceptionSource:TestCaseSourceAttribute does not support ExpectedException in NUnit 3. Use Assert.Throws or ThrowsConstraint.
+Error:NUnit.Tests.CompatibilityTests.AsyncVoidTestMethod:Async void test methods are no longer supported. Use async Task instead.
+Error:NUnit.Tests.AssertionHelperDerivedClass.:AssertionHelper is not supported in NUnit 3.
+Error:NUnit.Tests.CompatibilityTests.InstanceOfType:Is.InstanceOfType is not supported in NUnit 3. Use Is.InstanceOf
+Error:NUnit.Tests.CompatibilityTests.IsNotNullOrEmpty:NullOrEmptyConstraint is not supported in NUnit 3.
+Error:NUnit.Tests.CompatibilityTests.IsNullOrEmpty:NullOrEmptyConstraint is not supported in NUnit 3.
+Error:NUnit.Tests.CompatibilityTests.StringConstraintSyntax:Is.StringStarting is not supported in NUnit 3. Use Does.StartWith
+Error:NUnit.Tests.CompatibilityTests.StringConstraintSyntax:Is.StringEnding is not supported in NUnit 3. Use Does.EndWith
+Error:NUnit.Tests.CompatibilityTests.StringConstraintSyntax:Is.StringContaining is not supported in NUnit 3. Use Does.Contain
+Error:NUnit.Tests.CompatibilityTests.StringConstraintSyntax:Is.StringMatching is not supported in NUnit 3. Use Does.Match
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.StartsWith is not supported in NUnit 3. Use Does.StartWith
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.EndsWith is not supported in NUnit 3. Use Does.EndWith
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.Contains is not supported in NUnit 3. Use Does.Contain
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.Matches is not supported in NUnit 3. Use Does.Match
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.DoesNotStartWith is not supported in NUnit 3. Use Does.Not.StartWith
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.DoesNotEndWith is not supported in NUnit 3. Use Does.Not.EndWith
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.DoesNotContain is not supported in NUnit 3. Use Does.Not.Contain
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.DoesNotMatch is not supported in NUnit 3. Use Does.Not.Match
+Error:NUnit.Tests.CompatibilityTests.TextSyntax:Text.All is not supported in NUnit 3. Use Is.All or Has.All

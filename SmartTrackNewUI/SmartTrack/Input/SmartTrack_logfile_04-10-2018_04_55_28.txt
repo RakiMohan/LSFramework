@@ -1,0 +1,34 @@
+Start Log File: Thursday, October 4, 2018 4:55:28 AM
+Start Test Case: 002 : [Thursday, October 4, 2018 4:55:43 AM]
+INFO: Cannot locate element with text: Billable service(non-pv)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-labelledby='ui-dialog-title-dialog']//button[@class='btn btn-sm btn-primary']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@aria-labelledby='ui-dialog-title-dialog']//button[@class='btn btn-sm btn-primary']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"btnJobSaveAndContinue"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+Start Test Case: 002 : [Thursday, October 4, 2018 5:02:27 AM]
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"DefaultContent_divErrorReports"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"DefaultContent_divErrorReports"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"DefaultContent_divErrorReports"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Timed out after 60 seconds
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='totalcontent']//li[@wtitle='Distribution List']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Timed out after 60 seconds
+INFO: no such element: Unable to locate element: {"method":"id","selector":"ddlDistList"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+End Log File: Thursday, October 4, 2018 5:08:34 AM

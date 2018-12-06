@@ -1,0 +1,17 @@
+Start Log File: Monday, October 8, 2018 6:55:17 AM
+INFO: Login Time 0
+Start Test Case: 001 : [Monday, October 8, 2018 6:55:28 AM]
+INFO: element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"btnJobSaveAndContinue"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Login Time 0
+Start Test Case: 001 : [Monday, October 8, 2018 6:58:48 AM]
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='workflowContainer']//td//div[not(contains(@class,'approved'))]/ancestor::tbody//following-sibling::*//div[not(contains(@class,'approved')) and not(@id='wEnd')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Login Time 0
+INFO: Cannot locate element with text: Platinum
+INFO: Timed out after 60 seconds

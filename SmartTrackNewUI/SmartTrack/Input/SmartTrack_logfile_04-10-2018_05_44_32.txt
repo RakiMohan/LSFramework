@@ -1,0 +1,36 @@
+Start Log File: Thursday, October 4, 2018 5:44:32 AM
+INFO: Login Time 0
+Start Test Case: 001 : [Thursday, October 4, 2018 5:44:50 AM]
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"btnJobSaveAndContinue"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Login Time 0
+Start Test Case: 001 : [Thursday, October 4, 2018 5:47:33 AM]
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@id='workflowContainer']//td//div[not(contains(@class,'approved'))]/ancestor::tbody//following-sibling::*//div[not(contains(@class,'approved')) and not(@id='wEnd')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Login Time 0
+INFO: Cannot locate element with text: Tier 2
+INFO: Timed out after 60 seconds
+INFO: Login Time 0
+Start Test Case: 001 : [Thursday, October 4, 2018 5:52:09 AM]
+ERROR: Account not verified, Please use the link sent to your email to activate this account. , C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\ScreenShot\04102018_8\TestCase_001_04-10-2018_05_52_25.png
+End Test Case: 001 : [Thursday, October 4, 2018 5:52:25 AM]
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='gn-opener gn-icon gn-icon-menu'][@data-toggle='popover']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='gn-opener gn-icon gn-icon-menu'][@data-toggle='popover']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+INFO: Login Time 0
+End Log File: Thursday, October 4, 2018 5:52:42 AM

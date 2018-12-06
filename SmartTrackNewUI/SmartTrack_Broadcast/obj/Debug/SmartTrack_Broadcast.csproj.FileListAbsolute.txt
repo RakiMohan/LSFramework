@@ -1,0 +1,15 @@
+C:\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_Broadcast.dll.config
+C:\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_Broadcast.pdb
+C:\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.csprojResolveAssemblyReference.cache
+C:\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.dll
+C:\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.pdb
+C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_Broadcast.dll.config
+C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_Broadcast.pdb
+C:\working\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.csprojResolveAssemblyReference.cache
+C:\working\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.dll
+C:\working\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_Broadcast.dll.config
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack_Broadcast.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.csprojResolveAssemblyReference.cache
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack_Broadcast\obj\Debug\SmartTrack_Broadcast.pdb

@@ -1,0 +1,14 @@
+C:\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack.DataAccess.dll
+C:\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack.DataAccess.pdb
+C:\SmartTrackNewUI\SmartTrack.DataAccess\obj\Debug\SmartTrack.DataAccess.csprojResolveAssemblyReference.cache
+C:\SmartTrackNewUI\SmartTrack.DataAccess\obj\Debug\SmartTrack.DataAccess.dll
+C:\SmartTrackNewUI\SmartTrack.DataAccess\obj\Debug\SmartTrack.DataAccess.pdb
+C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack.DataAccess.dll
+C:\working\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack.DataAccess.pdb
+C:\working\SmartTrackNewUI\SmartTrack.DataAccess\obj\Debug\SmartTrack.DataAccess.dll
+C:\working\SmartTrackNewUI\SmartTrack.DataAccess\obj\Debug\SmartTrack.DataAccess.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack.DataAccess.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\SmartTrack.DataAccess.pdb
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack.DataAccess\obj\Debug\SmartTrack.DataAccess.csprojResolveAssemblyReference.cache
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack.DataAccess\obj\Debug\SmartTrack.DataAccess.dll
+C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack.DataAccess\obj\Debug\SmartTrack.DataAccess.pdb

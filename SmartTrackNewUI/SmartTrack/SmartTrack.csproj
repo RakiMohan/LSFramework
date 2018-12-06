@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23435444-85FD-4DF3-90C8-FA0D3C1C2861}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartTrack</RootNamespace>
+    <AssemblyName>SmartTrack</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>True</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.Excel.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\Microsoft.Office.Tools.Excel.v4.0.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="NMock2, Version=2.0.0.44, Culture=neutral, PublicKeyToken=37d3be0adc87c2b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\NMock2.dll</HintPath>
+    </Reference>
+    <Reference Include="NSubstitute">
+      <HintPath>..\packages\NUnit-2.7.0\bin\lib\NSubstitute.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit-console-runner">
+      <HintPath>..\packages\NUnit-2.7.0\bin\lib\nunit-console-runner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit-gui-runner">
+      <HintPath>..\packages\NUnit-2.7.0\bin\lib\nunit-gui-runner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit-2.7.0\bin\lib\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core.interfaces, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit-2.7.0\bin\lib\nunit.core.interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NUnit-2.6.4\bin\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework.tests">
+      <HintPath>..\..\..\..\Users\rakesh.murarisetty\Downloads\NUnit.Framework-3.11.0\bin\net45\nunit.framework.tests.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.testdata">
+      <HintPath>..\..\..\..\Users\rakesh.murarisetty\Downloads\NUnit.Framework-3.11.0\bin\net45\nunit.testdata.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.uiexception">
+      <HintPath>..\packages\NUnit-2.7.0\bin\lib\nunit.uiexception.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.uikit">
+      <HintPath>..\packages\NUnit-2.7.0\bin\lib\nunit.uikit.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.util">
+      <HintPath>..\packages\NUnit-2.7.0\bin\lib\nunit.util.dll</HintPath>
+    </Reference>
+    <Reference Include="NUnit3.TestAdapter">
+      <HintPath>..\..\..\..\Users\rakesh.murarisetty\Downloads\NUnit.Framework-3.11.0\bin\net45\NUnit3.TestAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="RelevantCodes.ExtentReports">
+      <HintPath>..\Dlls\RelevantCodes.ExtentReports.dll</HintPath>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.53.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumNunit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\SeleniumNunit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.53.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Common.Tests, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\WebDriver.Common.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Remote.Tests, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\WebDriver.Remote.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Exec_CreateRequirement.cs" />
+    <Compile Include="TestData\DataHandler.cs" />
+    <Compile Include="TestRunner2.cs" />
+    <Compile Include="DriverListeners.cs" />
+    <Compile Include="CreateRequirement.cs" />
+    <Compile Include="CreateRequirementPerClient.cs" />
+    <Compile Include="CreateRequirementPerClientJobTab.cs" />
+    <Compile Include="TestListeners.cs" />
+    <Compile Include="Initialiser.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="SmartTrack_Project.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestRunner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Input\MainFiles\SmartTrack_Output.xlsx" />
+    <None Include="Input\Resumes\SmartTrack_Input.xlsx" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\SmartTrack.csprojResolveAssemblyReference.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Input\Resumes\SampleResume.txt" />
+    <Content Include="obj\Debug\SmartTrack.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\SmartTrack.dll" />
+    <Content Include="obj\Debug\SmartTrack.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonFiles\CommonFiles.csproj">
+      <Project>{716167bd-d8a7-4088-87c5-f5a42f0707b3}</Project>
+      <Name>CommonFiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack.DataAccess\SmartTrack.DataAccess.csproj">
+      <Project>{eac2d640-7a4d-4ecf-8c9d-a8c4fdac40b8}</Project>
+      <Name>SmartTrack.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_Approve\SmartTrack_Approve.csproj">
+      <Project>{2c2d76cb-2d30-410b-8f09-8e37130b9a60}</Project>
+      <Name>SmartTrack_Approve</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_Broadcast\SmartTrack_Broadcast.csproj">
+      <Project>{8d3c4f9f-9e6d-4e1a-a22c-d4fe3e769bfc}</Project>
+      <Name>SmartTrack_Broadcast</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_Interview_Process\SmartTrack_Interview_Process.csproj">
+      <Project>{395cf7d4-a9b1-47db-9258-38b7f17cf067}</Project>
+      <Name>SmartTrack_Interview_Process</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_MSP_CW\SmartTrack_MSP_CW.csproj">
+      <Project>{cc3675d9-d9e9-424e-ba19-4ebd870bb9a2}</Project>
+      <Name>SmartTrack_MSP_CW</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_MSP_IWO\SmartTrack_MSP_IWO.csproj">
+      <Project>{fd6cb59a-b757-47f1-a62e-e242dc3a6f24}</Project>
+      <Name>SmartTrack_MSP_IWO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_MSP_OB\SmartTrack_MSP_OB.csproj">
+      <Project>{794cf069-1e14-4fa3-bb28-d7562e05399d}</Project>
+      <Name>SmartTrack_MSP_OB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_MSP_OH_EO\SmartTrack_MSP_OH_EO.csproj">
+      <Project>{756ca40a-729b-4a9d-80f4-a04d8eb6244b}</Project>
+      <Name>SmartTrack_MSP_OH_EO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_MSP_SM\SmartTrack_MSP_SM.csproj">
+      <Project>{52b63f5f-e2ed-4bea-9a61-d537108d7a21}</Project>
+      <Name>SmartTrack_MSP_SM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_Supplier\SmartTrack_Supplier.csproj">
+      <Project>{44e78005-e776-4f3d-819c-c3fae511fa43}</Project>
+      <Name>SmartTrack_Supplier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_Supplier_AO\SmartTrack_Supplier_AO.csproj">
+      <Project>{53c71cea-5d33-4d4d-b2f6-4dd13546ce73}</Project>
+      <Name>SmartTrack_Supplier_AO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartTrack_Supplier_AWO\SmartTrack_Supplier_AWO.csproj">
+      <Project>{5ce1dfae-c1d9-478e-bfec-01d3df4395c3}</Project>
+      <Name>SmartTrack_Supplier_AWO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

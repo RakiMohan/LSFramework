@@ -1,0 +1,15 @@
+Start Log File: Thursday, October 4, 2018 5:39:44 AM
+INFO: Login Time 0
+Start Test Case: 001 : [Thursday, October 4, 2018 5:40:00 AM]
+INFO: unknown error: Element <textarea name="jobDescription" id="jobDescription" ismandatory="1" class="entry nooverflow form-control input-sm" command="checkJobDesc" onfocus="if(indexNum!=21) $('#guidanceContent').callGuidance(guiData[21],21)" wrap="virtual" autocomplete="off" aria-describedby="guidanceContent" style="line-height: 20.384px; margin-top: 0px; overflow: auto; height: 143px;">...</textarea> is not clickable at point (607, 71). Other element would receive the click: <div class="ui-widget-overlay" style="width: 1349px; height: 2630px; z-index: 4000;"></div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: no such element: Unable to locate element: {"method":"xpath","selector":"btnJobSaveAndContinue"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: unknown error: Element <button type="button" id="btnSubmit" name="btnSubmit" filesrc="/RequirementAdd/Submit" param="cmd=space" class="btn btn-lg btn-primary" aria-label="New Requisition Submit">...</button> is not clickable at point (704, 593). Other element would receive the click: <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-push-4">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+INFO: unknown error: Element <button type="button" id="btnSubmit" name="btnSubmit" filesrc="/RequirementAdd/Submit" param="cmd=space" class="btn btn-lg btn-primary" aria-label="New Requisition Submit">...</button> is not clickable at point (704, 593). Other element would receive the click: <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-push-4">...</div>
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)

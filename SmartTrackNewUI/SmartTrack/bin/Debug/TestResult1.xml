@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\Smarttrack.dll" total="4" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-10-16" time="05:05:15">
+  <environment nunit-version="2.6.4.14350" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug" machine-name="VDI-QA-65" user="rakesh.murarisetty" user-domain="DCR" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\Smarttrack.dll" executed="True" result="Failure" success="False" time="3.359" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SmartTrack_Automation" executed="True" result="Failure" success="False" time="3.350" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="SmartTrack" executed="True" result="Success" success="True" time="0.038" asserts="0">
+            <results>
+              <test-case name="SmartTrack_Automation.SmartTrack.test1" executed="True" result="Success" success="True" time="0.014" asserts="0" />
+              <test-case name="SmartTrack_Automation.SmartTrack.test2" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="TestRunner" executed="True" result="Failure" success="False" time="3.303" asserts="0">
+            <results>
+              <test-case name="SmartTrack_Automation.TestRunner.test3" executed="True" result="Failure" success="False" time="3.247" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[at SmartTrack_Automation.TestRunner.test3() in c:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\TestRunner.cs:line 19
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="SmartTrack_Automation.TestRunner.test4" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\Smarttrack.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-12-04" time="03:52:02">
+  <environment nunit-version="2.6.4.14350" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug" machine-name="VDI-QA-65" user="rakesh.murarisetty" user-domain="DCR" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\SMARTTrack-MAIN-Automation-cwcreation\Scenarios\SmartTrackNewUI\SmartTrack\bin\Debug\Smarttrack.dll" executed="True" result="Success" success="True" time="15.959" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SmartTrack_Automation" executed="True" result="Success" success="True" time="15.949" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="Exec_CreateRequirement" executed="True" result="Success" success="True" time="15.948" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="TC01_Fn_CreateRequirement" executed="True" result="Success" success="True" time="4.549" asserts="0">
+                <results>
+                  <test-case name="SmartTrack_Automation.Exec_CreateRequirement.TC01_Fn_CreateRequirement(&quot;MSP$&quot;,&quot;001&quot;,&quot;001&quot;)" executed="True" result="Success" success="True" time="4.542" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
